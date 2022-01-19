@@ -1,21 +1,22 @@
 .header {
-    margin: 0 48px 0px;
+    margin: 0 auto 0;
     height: 52px;
     width: calc(100% - 48px - 48px);
+    max-width: 1184px;
     background-color: #2A2C2F;
     display: flex;
     justify-content: space-between;
 }
 
-  @media (max-width: 768px)  {
-    .header {
+@media (max-width: 768px)  {
+  .header {
       margin: 0 24px 0px;
       width: calc(100% - 24px - 24px);
-  }
+      
+}
 
-  @media (max-width: 320px)  {
-    .header {
-        margin: 0 16px 0px;
-        width: calc(100% - 16px - 16px);
-        height: 42px;
-  }
+@media (max-width: 320px)  {
+  .header {
+      margin: 0 auto 0px;
+      width: calc(100% - 16px - 16px);
+      height: 42px;

@@ -3,5 +3,10 @@
   display: flex;
   margin-bottom: 6px;
   margin-top: 18px;
+  padding-inline-start: 0;
 }
 
+@media (max-width: 320px)  {
+  .header__lang {
+    margin-bottom: 8px;
+}

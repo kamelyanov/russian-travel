@@ -1,9 +1,9 @@
 .header__lang {
-  list-style: none;
   display: flex;
   margin-bottom: 6px;
   margin-top: 18px;
   padding-inline-start: 0;
+  list-style: none;
 }
 
 @media (max-width: 320px)  {

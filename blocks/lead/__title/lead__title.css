@@ -28,6 +28,7 @@ color: #fff;
     .lead__title {
       height: 88px;
       max-width: 288px;
+      width: 100%;
       margin: 0 16px 0;
       font-size: 40px;
       line-height: 44px;

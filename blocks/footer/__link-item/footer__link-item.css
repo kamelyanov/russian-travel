@@ -1,11 +1,11 @@
-.footer__link_item {
+.footer__link-item {
   color: #fff;
   text-decoration: none;
   margin-right: 18px;
 }
 
 @media (max-width: 768px) {
-  .footer__link_item {
+  .footer__link-item {
     margin-right: 5px;
   }
 }

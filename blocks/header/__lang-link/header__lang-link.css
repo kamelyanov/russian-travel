@@ -9,11 +9,12 @@
   color: #fff;
   text-decoration: none;
 }
-    
-@media (max-width: 320px)  {
+
+@media (max-width: 320px) {
   .header__lang-link {
-    Width: 22px;
-    Height: 20px;
+    width: 22px;
+    height: 20px;
     font-size: 18px;
     line-height: 20px;
+  }
 }

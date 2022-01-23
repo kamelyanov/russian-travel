@@ -2,10 +2,13 @@
   padding-inline-start: 0;
   margin: 0;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
 }
+
+
 
 @media (max-width: 320px) {
   .footer__links {

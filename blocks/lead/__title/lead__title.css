@@ -14,23 +14,23 @@ color: #fff;
     margin: 0 104px 0; 
   }
 
-  @media (max-width: 767px)  {
+@media (max-width: 767px)  {
   .lead__title {
     height: 88px;
-      max-width: 288px;
-      margin: 0 24px 0;
-      font-size: 40px;
-      line-height: 44px;
-    
+    max-width: 288px;
+    margin: 0 24px 0;
+    font-size: 40px;
+    line-height: 44px;
+   }
   }
 
-  @media (max-width: 320px)  {
-    .lead__title {
-      height: 88px;
-      max-width: 288px;
-      width: 100%;
-      margin: 0 16px 0;
-      font-size: 40px;
-      line-height: 44px;
+@media (max-width: 320px)  {
+  .lead__title {
+    height: 88px;
+    max-width: 288px;
+    width: 100%;
+    margin: 0 16px 0;
+    font-size: 40px;
+    line-height: 44px;
   }
-  
+}

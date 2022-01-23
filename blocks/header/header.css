@@ -1,22 +1,24 @@
 .header {
-    margin: 0 auto 0;
-    height: 52px;
-    width: calc(100% - 48px - 48px);
-    max-width: 1184px;
-    background-color: #2A2C2F;
-    display: flex;
-    justify-content: space-between;
+  margin: 0 auto 0;
+  height: 52px;
+  width: calc(100% - 48px - 48px);
+  max-width: 1184px;
+  background-color: #2a2c2f;
+  display: flex;
+  justify-content: space-between;
 }
 
-@media (max-width: 768px)  {
+@media (max-width: 768px) {
   .header {
-      margin: 0 24px 0px;
-      width: calc(100% - 24px - 24px);
-      
+    margin: 0 24px 0px;
+    width: calc(100% - 24px - 24px);
+  }
 }
 
-@media (max-width: 320px)  {
+@media (max-width: 320px) {
   .header {
-      margin: 0 auto 0px;
-      width: calc(100% - 16px - 16px);
-      height: 42px;
+    margin: 0 auto 0px;
+    width: calc(100% - 16px - 16px);
+    height: 42px;
+  }
+}

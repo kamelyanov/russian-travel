@@ -1,0 +1,11 @@
+.footer__link_item {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 18px;
+}
+
+@media (max-width: 768px) {
+  .footer__link_item {
+    margin-right: 5px;
+  }
+}

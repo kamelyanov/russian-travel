@@ -1,24 +1,27 @@
 .intro {
-    color: #fff;
-    margin: 92px auto 0;
-    max-width: 690px;
-    padding-right: calc(442px - 148px);
+  color: #fff;
+  margin: 92px auto 0;
+  max-width: 690px;
+  padding-right: calc(442px - 148px);
 }
- 
-  @media (max-width: 1024px)  {
-    .intro {
+
+@media (max-width: 1024px) {
+  .intro {
     margin: 92px 44px 0;
     padding-right: 0;
+  }
 }
-  
-  @media (max-width: 768px)  {
-    .intro {
+
+@media (max-width: 768px) {
+  .intro {
     margin: 88px 24px 0;
     max-width: 720px;
   }
-  
-  @media (max-width: 320px)  {
-    .intro {
-      max-width: 288px;
-      margin: 64px 16px 0;
+}
+
+@media (max-width: 320px) {
+  .intro {
+    max-width: 288px;
+    margin: 64px 16px 0;
   }
+}

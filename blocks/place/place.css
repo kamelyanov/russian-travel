@@ -22,6 +22,7 @@
 
 @media (max-width: 768px) {
   .place {
+    margin: 73px 0;
     gap: 48px 28px;
   }
 }
@@ -34,3 +35,8 @@
   }
 }
 
+@media (max-width: 320px) {
+  .place {
+    margin: 50px 0;
+  }
+}

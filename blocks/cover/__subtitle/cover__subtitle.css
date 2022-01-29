@@ -2,7 +2,8 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  width: 360px;
+  width: 100%;
+  max-width: 360px;
   margin: 32px 0 0;
 }
 
@@ -11,6 +12,7 @@
     font-size: 14px;
     line-height: 16px;
     margin: 16px auto 0;
-    width: 288px;
+    width: 100%;
+    max-width: 288px;
   }
 }

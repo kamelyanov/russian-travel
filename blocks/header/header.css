@@ -1,6 +1,5 @@
 .header {
   margin: 0 auto 0;
-  height: 52px;
   width: calc(100% - 48px - 48px);
   max-width: 1184px;
   background-color: #2a2c2f;
@@ -19,6 +18,5 @@
   .header {
     margin: 0 auto 0px;
     width: calc(100% - 16px - 16px);
-    height: 42px;
   }
 }

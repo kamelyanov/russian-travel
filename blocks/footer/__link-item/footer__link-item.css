@@ -4,8 +4,10 @@
   margin-right: 18px;
 }
 
-@media (max-width: 768px) {
-  .footer__link-item {
-    margin-right: 5px;
-  }
+.footer__link-item:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s;
 }
+
+
+
